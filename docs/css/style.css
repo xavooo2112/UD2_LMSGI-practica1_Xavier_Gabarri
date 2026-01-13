@@ -1,0 +1,50 @@
+body {
+    margin: 20px;
+    min-height: 100vh;
+    align-items: center;
+    background-image: url(../images/fondo.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+    overflow: hidden;
+    text-align: center;
+}
+
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+h1 {
+    background-color: #C7C8CA;   
+    color: #FFFFFF;              
+    border-left: 13px solid #FD4E3B;
+    padding: 10px 15px;
+}
+
+img {
+    border: 5px solid #000; 
+    border-radius: 8px; 
+    box-shadow: 0 6px 18px rgba(0,0,0,0.6); 
+    width: 300px; 
+    height: 300px;
+    object-fit: cover; 
+    display: inline-block;
+}
+
+ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block; 
+    border: 1px solid black; 
+    padding: 6px 10px;
+    margin: 4px;
+    border-radius: 4px;
+}
+
